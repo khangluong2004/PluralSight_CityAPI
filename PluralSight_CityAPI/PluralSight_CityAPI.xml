@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PluralSight_CityAPI</name>
+    </assembly>
+    <members>
+        <member name="M:PluralSight_CityAPI.Controllers.CitiesController.GetCity(System.Int32,System.Boolean)">
+            <summary>
+            Get the city of cityId
+            </summary>
+            <param name="cityId"> id of the city </param>
+            <param name="includePoints"> Whether to include the points or not </param>
+            <returns> An IActionResult </returns>
+            <response code="200"> Return requested city </response> 
+        </member>
+    </members>
+</doc>
